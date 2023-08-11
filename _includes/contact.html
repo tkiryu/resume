@@ -25,12 +25,6 @@
     </li>
     {% endif %}
 
-    {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
@@ -43,27 +37,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.xing %}
-    <li class="xing"><i class="fab fa-xing"></i>
-      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.gitlab %}
-    <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.bitbucket %}
-    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
     </li>
     {% endif %}
 
@@ -73,21 +49,11 @@
     </li>
     {% endif %}
 
-    {% if sidebar.stack-overflow %}
-    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.codewars %}
-    <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.goodreads %}
-    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
-      <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+    {% if sidebar.zenn %}
+    <li class="zenn">
+      <svg class="icon-zenn" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Zenn</title><path d="M.264 23.771h4.984c.264 0 .498-.147.645-.352L19.614.874c.176-.293-.029-.645-.381-.645h-4.72c-.235 0-.44.117-.557.323L.03 23.361c-.088.176.029.41.234.41zM17.445 23.419l6.479-10.408c.205-.323-.029-.733-.41-.733h-4.691c-.176 0-.352.088-.44.235l-6.655 10.643c-.176.264.029.616.352.616h4.779c.234-.001.468-.118.586-.353z"/></svg>
+    
+      <a href="https://zenn.dev/{{ sidebar.zenn }}" target="_blank">{{ sidebar.zenn }}</a>
     </li>
     {% endif %}
 

@@ -92,9 +92,16 @@ p {
       vertical-align: middle;
     }
     li {
+      display: flex;
       margin-bottom: 15px;
       &:last-child {
         margin-bottom: 0;
+      }
+      .icon-zenn {
+        width: 18px;
+        height: 18px;
+        fill: white;
+        margin-right: 5px;
       }
     }
   }
