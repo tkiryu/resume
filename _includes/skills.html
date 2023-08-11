@@ -15,21 +15,21 @@
     <div>
       <h3 class="skill-category">Language</h3>
       {% for item in skills.language %}
-      {{ item }}, 
+        {{ item }}{% unless forloop.last -%}, {% endunless -%}
       {% endfor %}
     </div>
 
     <div>
       <h3 class="skill-category">Framework & Library</h3>
       {% for item in skills.framework_library %}
-      {{ item }}, 
+      {{ item }}{% unless forloop.last -%}, {% endunless -%}
       {% endfor %}
     </div>
 
     <div>
       <h3 class="skill-category">And More</h3>
       {% for item in skills.other %}
-      {{ item }}, 
+      {{ item }}{% unless forloop.last -%}, {% endunless -%}
       {% endfor %}
     </div>
 

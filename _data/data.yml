@@ -93,6 +93,9 @@ skills:
       - Prisma
       - Storybook
       - MSW
+      - ASP.NET Core
+      - ASP.NET MVC
+      - Xamarin
 
     other:
       - DDD
