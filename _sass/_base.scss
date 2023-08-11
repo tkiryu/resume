@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -173,7 +173,6 @@ p {
   padding: 60px;
   .section-title {
     text-transform: uppercase;
-    font-size: 20px;
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
@@ -199,13 +198,11 @@ p {
   }
   .skill-category {
     color: $text-color;
-    font-size: 16px;
   }
   .job-title,
   .degree,
   .cert-title{
     color: $text-color;
-    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     flex: 75%;
