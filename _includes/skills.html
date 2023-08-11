@@ -13,23 +13,23 @@
   <div class="skillset">
 
     <div>
-      <h3><small>Language</small></h3>
+      <h3 class="skill-category">Language</h3>
       {% for item in skills.language %}
-      <strong>{{ item }}, </strong>
+      {{ item }}, 
       {% endfor %}
     </div>
 
     <div>
-      <h3><small>Framework & Library</small></h3>
+      <h3 class="skill-category">Framework & Library</h3>
       {% for item in skills.framework_library %}
-      <strong>{{ item }}, </strong>
+      {{ item }}, 
       {% endfor %}
     </div>
 
     <div>
-      <h3><small>Other</small></h3>
+      <h3 class="skill-category">And More</h3>
       {% for item in skills.other %}
-      <strong>{{ item }}, </strong>
+      {{ item }}, 
       {% endfor %}
     </div>
 

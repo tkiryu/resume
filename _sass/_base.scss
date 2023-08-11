@@ -197,6 +197,10 @@ p {
     margin-bottom: 2px;
     display: flex;
   }
+  .skill-category {
+    color: $text-color;
+    font-size: 16px;
+  }
   .job-title,
   .degree,
   .cert-title{
@@ -204,7 +208,6 @@ p {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
     flex: 75%;
   }
   .time,

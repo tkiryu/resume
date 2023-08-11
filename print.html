@@ -4,11 +4,13 @@ permalink: /print
 ---
 
 
-{% include career-profile.html %}
-
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
+
+{% include career-profile.html %}
+
+{% include skills.html %}
 
 {% include experiences.html %}
 
@@ -16,4 +18,3 @@ permalink: /print
 
 {% include publications.html %}
 
-{% include skills.html %}
